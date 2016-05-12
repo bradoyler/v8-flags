@@ -1,0 +1,28 @@
+{
+  "name": "v8-flags",
+  "version": "0.0.1",
+  "description": "V8 flag docs by Node version",
+  "main": "index.js",
+  "dependencies": {
+    "v8flags": "2.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradoyler/v8-flags.git"
+  },
+  "keywords": [
+    "v8",
+    "flags"
+  ],
+  "author": "Brad Oyler <bradoyler@gmail.com> (github.com/bradoyler)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bradoyler/v8-flags/issues"
+  },
+  "homepage": "https://github.com/bradoyler/v8-flags#readme"
+}
