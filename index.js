@@ -22,9 +22,11 @@ flags(function (err, results) {
 
         stream.write('Versions: Node='+ process.versions.node+ ' V8='+ process.versions.v8 +'\n');
 
+        stream.write('``` \n');
         results.forEach(function(result) {
             stream.write(result+'\n');
         });
+        stream.write('```');
         stream.end();
     });
 
